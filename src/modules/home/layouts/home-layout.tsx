@@ -4,7 +4,6 @@ import HomeSidebar from "../ui/components/home-sidebar";
 
 
 
-
 interface HomeLayoutsProps {
   children: React.ReactNode;
 }
@@ -16,14 +15,16 @@ export const HomeLayout = ({ children }: HomeLayoutsProps) => {
       <div className="w-full">
         <HomeNavbar />
         <div className="flex min-h-screen pt-[4rem]">
-          <HomeSidebar />
+          <HomeSidebar
+          />
           <main className="flex-1 overflow-y-auto">
             {children}
           </main>
+
         </div>
       </div>
-    </SidebarProvider>
 
+    </SidebarProvider>
   )
 
 }

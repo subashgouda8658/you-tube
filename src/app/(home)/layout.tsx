@@ -1,4 +1,5 @@
-import { HomeLayout } from "../modules/home/layouts/home-layout"
+import { HomeLayout } from "@/modules/home/layouts/home-layout"
+
 
 
 
